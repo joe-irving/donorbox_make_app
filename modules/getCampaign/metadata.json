@@ -1,0 +1,8 @@
+{
+    "name": "getCampaign",
+    "label": "Get Campaign",
+    "description": "Gets a campaign by ID",
+    "connection": "donorbox-rn36y3",
+    "webhook": null,
+    "type": "action"
+}

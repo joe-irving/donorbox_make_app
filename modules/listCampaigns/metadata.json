@@ -1,0 +1,8 @@
+{
+    "name": "listCampaigns",
+    "label": "List Campaigns",
+    "description": "Lists campaigns on your plan",
+    "connection": "donorbox-rn36y3",
+    "webhook": null,
+    "type": "search"
+}

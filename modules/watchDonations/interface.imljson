@@ -1,0 +1,256 @@
+[
+    {
+        "name": "campaign",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "id",
+                "type": "number",
+                "label": "ID"
+            },
+            {
+                "name": "name",
+                "type": "text",
+                "label": "Name"
+            }
+        ],
+        "label": "Campaign"
+    },
+    {
+        "name": "donor",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "id",
+                "type": "number",
+                "label": "ID"
+            },
+            {
+                "name": "name",
+                "type": "text",
+                "label": "Name"
+            },
+            {
+                "name": "first_name",
+                "type": "text",
+                "label": "First Name"
+            },
+            {
+                "name": "last_name",
+                "type": "text",
+                "label": "Last Name"
+            },
+            {
+                "name": "email",
+                "type": "text",
+                "label": "Email"
+            },
+            {
+                "name": "address",
+                "type": "text",
+                "label": "Address"
+            },
+            {
+                "name": "city",
+                "type": "text",
+                "label": "City"
+            },
+            {
+                "name": "state",
+                "type": "text",
+                "label": "State"
+            },
+            {
+                "name": "zip_code",
+                "type": "text",
+                "label": "Zip Code"
+            },
+            {
+                "name": "country",
+                "type": "text",
+                "label": "Country"
+            },
+            {
+                "name": "employer",
+                "type": "text",
+                "label": "Employer"
+            },
+            {
+                "name": "occupation",
+                "type": "text",
+                "label": "Occupation"
+            }
+        ],
+        "label": "Donor"
+    },
+    {
+        "name": "amount",
+        "type": "text",
+        "label": "Amount"
+    },
+    {
+        "name": "formatted_amount",
+        "type": "text",
+        "label": "Formatted Amount"
+    },
+    {
+        "name": "converted_amount",
+        "type": "text",
+        "label": "Converted Amount"
+    },
+    {
+        "name": "formatted_converted_amount",
+        "type": "text",
+        "label": "Formatted Converted Amount"
+    },
+    {
+        "name": "recurring",
+        "type": "boolean",
+        "label": "Recurring"
+    },
+    {
+        "name": "first_recurring_donation",
+        "type": "boolean",
+        "label": "First Recurring Donation"
+    },
+    {
+        "name": "amount_refunded",
+        "type": "text",
+        "label": "Amount Refunded"
+    },
+    {
+        "name": "formatted_amount_refunded",
+        "type": "text",
+        "label": "Formatted Amount Refunded"
+    },
+    {
+        "name": "stripe_charge_id",
+        "type": "text",
+        "label": "Stripe Charge ID"
+    },
+    {
+        "name": "id",
+        "type": "number",
+        "label": "ID"
+    },
+    {
+        "name": "status",
+        "type": "text",
+        "label": "Status"
+    },
+    {
+        "name": "donation_type",
+        "type": "text",
+        "label": "Donation Type"
+    },
+    {
+        "name": "donation_date",
+        "type": "date",
+        "label": "Donation Date"
+    },
+    {
+        "name": "anonymous_donation",
+        "type": "boolean",
+        "label": "Anonymous Donation"
+    },
+    {
+        "name": "gift_aid",
+        "type": "boolean",
+        "label": "Gift Aid"
+    },
+    {
+        "name": "designation",
+        "type": "text",
+        "label": "Designation"
+    },
+    {
+        "name": "join_mailing_list",
+        "type": "boolean",
+        "label": "Join Mailing List"
+    },
+    {
+        "name": "comment",
+        "type": "text",
+        "label": "Comment"
+    },
+    {
+        "name": "donating_company",
+        "type": "text",
+        "label": "Donating Company"
+    },
+    {
+        "name": "currency",
+        "type": "text",
+        "label": "Currency"
+    },
+    {
+        "name": "converted_currency",
+        "type": "text",
+        "label": "Converted Currency"
+    },
+    {
+        "name": "utm_campaign",
+        "type": "text",
+        "label": "Utm Campaign"
+    },
+    {
+        "name": "utm_source",
+        "type": "text",
+        "label": "Utm Source"
+    },
+    {
+        "name": "utm_medium",
+        "type": "text",
+        "label": "Utm Medium"
+    },
+    {
+        "name": "utm_term",
+        "type": "text",
+        "label": "Utm Term"
+    },
+    {
+        "name": "utm_content",
+        "type": "text",
+        "label": "Utm Content"
+    },
+    {
+        "name": "processing_fee",
+        "type": "number",
+        "label": "Processing Fee"
+    },
+    {
+        "name": "formatted_processing_fee",
+        "type": "text",
+        "label": "Formatted Processing Fee"
+    },
+    {
+        "name": "questions",
+        "type": "array",
+        "spec": {
+            "type": "collection",
+            "spec": [
+                {
+                    "name": "question_type",
+                    "type": "text",
+                    "label": "Question Type"
+                },
+                {
+                    "name": "question",
+                    "type": "text",
+                    "label": "Question"
+                },
+                {
+                    "name": "answer",
+                    "type": "text",
+                    "label": "Answer"
+                }
+            ]
+        },
+        "label": "Questions"
+    },
+    {
+        "name": "paypal_transaction_id",
+        "type": "text",
+        "label": "Paypal Transaction ID"
+    }
+]

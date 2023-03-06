@@ -1,0 +1,26 @@
+{
+    "url": "/donors",
+    "method": "GET",
+    "qs": {
+        "first_name": "{{parameters.first_name}}",
+        "last_name": "{{parameters.last_name}}",
+        "donor_name": "{{parameters.donor_name}}",
+        "email": "{{parameters.email}}"
+    },
+    "response": {
+        "iterate": "{{body}}",
+        "trigger": {
+            "id": "{{item.id}}",
+            "date": "{{item[parameters.date_type]}}",
+            "type": "date",
+            "order": "desc"
+        },
+        "output": "{{item}}",
+        "limit": "{{parameters.limit}}"
+    },
+    "pagination": {
+        "qs": {
+            "page": "{{pagination.page}}"
+        }
+    }
+}

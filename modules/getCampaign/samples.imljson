@@ -1,0 +1,13 @@
+{
+    "id": 12345,
+    "name": "Testing Campaign",
+    "slug": "testing-campaign-22",
+    "currency": "usd",
+    "created_at": "2023-02-24T12:48:52.265Z",
+    "updated_at": "2023-02-24T12:48:52.265Z",
+    "goal_amt": "100.0",
+    "formatted_goal_amount": "$100",
+    "total_raised": "0.0",
+    "formatted_total_raised": "$0",
+    "donations_count": 0
+}

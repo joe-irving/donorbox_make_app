@@ -1,0 +1,8 @@
+{
+    "response": {
+        "output": {
+            "date": "{{item.started_at}}",
+            "label": "[{{ item.campaign.name }}] {{item.formatted_amount}} from {{ item.donor.name }} ({{ item.id }})"
+        }
+    }
+}

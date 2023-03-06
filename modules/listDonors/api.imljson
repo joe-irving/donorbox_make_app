@@ -1,0 +1,20 @@
+{
+    "url": "/donors",
+    "method": "GET",
+    "qs": {
+        "first_name": "{{parameters.first_name}}",
+        "last_name": "{{parameters.last_name}}",
+        "donor_name": "{{parameters.donor_name}}",
+        "email": "{{parameters.email}}"
+    },
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}",
+        "limit": "{{parameters.limit}}"
+    },
+    "pagination": {
+        "qs": {
+            "page": "{{pagination.page}}"
+        }
+    }
+}

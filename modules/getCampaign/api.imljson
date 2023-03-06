@@ -1,0 +1,10 @@
+{
+    "url": "/campaigns",
+    "method": "GET",
+    "qs": {
+        "id": "{{ parameters.id }}"
+    },
+    "response": {
+        "output": "{{first(body)}}"
+    }
+}

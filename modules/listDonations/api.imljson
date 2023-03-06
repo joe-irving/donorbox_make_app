@@ -1,0 +1,46 @@
+[
+    {
+        "temp": {
+            "amount": [
+                {
+                    "key": "amount[{{ lower(parameters.amount_max.currency) }}][max]",
+                    "value": "{{ parameters.amount_max.amount }}"
+                },
+                {
+                    "key": "amount[{{ lower(parameters.amount_min.currency) }}][min]",
+                    "value": "{{ parameters.amount_min.amount }}"
+                }
+            ]
+        }
+    },
+    {
+        "url": "/donations",
+        "method": "GET",
+        "temp": {
+            "amount_qs": "{{ toCollection(temp.amount, 'key', 'value') }}",
+            "qs": {
+                "email": "{{parameters.email}}",
+                "date_to": "{{ parameters.date_to }}",
+                "date_from": "{{ parameters.date_from }}",
+                "campaign_name": "{{ parameters.campaign_name }}",
+                "campaign_id": "{{ parameters.campaign_id }}",
+                "first_name": "{{ parameters.first_name }}",
+                "last_name": "{{ parameters.last_name }}",
+                "donor_id": "{{ parameters.donor_id }}"
+            }
+        },
+        "qs": {
+            "{{...}}": "{{ toCollection(merge(toArray(temp.qs), temp.amount), 'key', 'value') }}"
+        },
+        "response": {
+            "output": "{{ item }}",
+            "iterate": "{{ body }}",
+            "limit": "{{ parameters.limit }}"
+        },
+        "pagination": {
+            "qs": {
+                "page": "{{pagination.page}}"
+            }
+        }
+    }
+]

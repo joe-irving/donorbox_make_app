@@ -1,0 +1,8 @@
+{
+    "name": "getDonation",
+    "label": "Get Donation",
+    "description": "Gets a single donation by ID",
+    "connection": "donorbox-rn36y3",
+    "webhook": null,
+    "type": "action"
+}

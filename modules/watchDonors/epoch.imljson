@@ -1,0 +1,8 @@
+{
+    "response": {
+        "output": {
+            "date": "{{item[parameters.date_type]}}",
+            "label": "{{item.first_name}} {{item.last_name}} ({{ item.email }})"
+        }
+    }
+}

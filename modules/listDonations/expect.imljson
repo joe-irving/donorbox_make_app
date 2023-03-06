@@ -1,0 +1,68 @@
+[
+    {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "help": "Get donations by donor's email."
+    },
+    {
+        "name": "date_from",
+        "label": "Donations from date",
+        "type": "date",
+        "time": true
+    },
+    {
+        "name": "date_to",
+        "label": "Donations until date",
+        "type": "date",
+        "time": true
+    },
+    {
+        "name": "campaign_name",
+        "label": "Campaign Name",
+        "type": "text",
+        "help": "This is the Donorbox campaign title that you have defined in Donorbox."
+    },
+    {
+        "name": "campaign_id",
+        "label": "Campaign ID",
+        "type": "number",
+        "help": "Filter donations by campaign ID"
+    },
+    {
+        "name": "first_name",
+        "label": "Donor First Name",
+        "type": "text",
+        "help": "Donations by donor's first name"
+    },
+    {
+        "name": "last_name",
+        "label": "Donor last Name",
+        "type": "text",
+        "help": "Donations by donor's last name"
+    },
+    {
+        "name": "donor_id",
+        "label": "Donor's ID",
+        "type": "number",
+        "help": "Donations by donor's ID"
+    },
+    {
+        "name": "amount_min",
+        "label": "Min Amount",
+        "type": "collection",
+        "spec": "rpc://amountSpec"
+    },
+    {
+        "name": "amount_max",
+        "label": "Max Amount",
+        "type": "collection",
+        "spec": "rpc://amountSpec"
+    },
+    {
+        "name": "limit",
+        "label": "Limit",
+        "type": "uinteger",
+        "default": 50
+    }
+]

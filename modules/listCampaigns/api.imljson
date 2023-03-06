@@ -1,0 +1,17 @@
+{
+    "url": "/campaigns",
+    "method": "GET",
+    "qs": {
+        "name": "{{ parameters.name }}"
+    },
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{ body }}",
+        "limit": "{{ parameters.limit }}"
+    },
+    "pagination": {
+        "qs": {
+            "page": "{{ pagination.page }}"
+        }
+    }
+}

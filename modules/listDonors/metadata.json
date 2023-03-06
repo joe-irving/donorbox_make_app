@@ -1,0 +1,8 @@
+{
+    "name": "listDonors",
+    "label": "List Donors",
+    "description": "Lists people who have donated",
+    "connection": "donorbox-rn36y3",
+    "webhook": null,
+    "type": "search"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "watchPlans",
+    "label": "Watch Plans",
+    "description": "Triggers for new plans",
+    "connection": "donorbox-rn36y3",
+    "webhook": null,
+    "type": "trigger"
+}

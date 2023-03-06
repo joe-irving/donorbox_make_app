@@ -1,0 +1,24 @@
+{
+    "url": "/plans",
+    "method": "GET",
+    "qs": {
+        "email": "{{parameters.email}}",
+        "date_to": "{{ parameters.date_to }}",
+        "date_from": "{{ parameters.date_from }}",
+        "campaign_name": "{{ parameters.campaign_name }}",
+        "campaign_id": "{{ parameters.campaign_id }}",
+        "first_name": "{{ parameters.first_name }}",
+        "last_name": "{{ parameters.last_name }}",
+        "donor_id": "{{ parameters.donor_id }}"
+    },
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}",
+        "limit": "{{ parameters.limit }}"
+    },
+    "pagination": {
+        "qs": {
+            "page": "{{ pagination.page }}"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+[
+    {
+        "name": "id",
+        "label": "Donation ID",
+        "type": "number",
+        "required": true
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "url": "https://donorbox.org/api/v1/campaigns",
+    "headers": {
+        "Authorization": "Basic {{ base64(parameters.email + ':' + parameters.key) }}"
+    }
+}

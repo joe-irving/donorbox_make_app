@@ -1,0 +1,8 @@
+{
+    "name": "watchCampaigns",
+    "label": "Watch Campaigns",
+    "description": "Triggers for new or updated campaigns",
+    "connection": "donorbox-rn36y3",
+    "webhook": null,
+    "type": "trigger"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "watchDonationsInstant",
+    "label": "Watch Donations Instant",
+    "description": "Triggers for new or updated donations",
+    "connection": null,
+    "webhook": "donorbox-rn36y3",
+    "type": "instant_trigger"
+}

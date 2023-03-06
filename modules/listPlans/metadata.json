@@ -1,0 +1,8 @@
+{
+    "name": "listPlans",
+    "label": "List Plans",
+    "description": "Lists plans",
+    "connection": "donorbox-rn36y3",
+    "webhook": null,
+    "type": "search"
+}

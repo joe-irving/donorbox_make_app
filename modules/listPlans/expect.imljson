@@ -1,0 +1,56 @@
+[
+    {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "help": "Get plans by donor's email."
+    },
+    {
+        "name": "date_from",
+        "label": "Plans from date",
+        "type": "date",
+        "time": true
+    },
+    {
+        "name": "date_to",
+        "label": "Plans until date",
+        "type": "date",
+        "time": true
+    },
+    {
+        "name": "campaign_name",
+        "label": "Campaign Name",
+        "type": "text",
+        "help": "Filter plans by campaign name."
+    },
+    {
+        "name": "campaign_id",
+        "label": "Campaign ID",
+        "type": "number",
+        "help": "Filter plans by campaign ID"
+    },
+    {
+        "name": "first_name",
+        "label": "Donor First Name",
+        "type": "text",
+        "help": "Plans by donor's first name"
+    },
+    {
+        "name": "last_name",
+        "label": "Donor last Name",
+        "type": "text",
+        "help": "Plans by donor's last name"
+    },
+    {
+        "name": "donor_id",
+        "label": "Donor's ID",
+        "type": "number",
+        "help": "Plans by donor's ID"
+    },
+    {
+        "name": "limit",
+        "label": "Limit",
+        "type": "uinteger",
+        "default": 50
+    }
+]

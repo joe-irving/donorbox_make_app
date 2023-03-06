@@ -1,0 +1,8 @@
+{
+    "name": "makeApiCall",
+    "label": "Make API Call",
+    "description": "Universal module",
+    "connection": "donorbox-rn36y3",
+    "webhook": null,
+    "type": "universal"
+}

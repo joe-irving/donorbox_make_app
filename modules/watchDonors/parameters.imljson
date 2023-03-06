@@ -1,0 +1,47 @@
+[
+    {
+        "name": "date_type",
+        "label": "Watch new or updated donors?",
+        "type": "select",
+        "options": [
+            {
+                "label": "New only",
+                "value": "created_at"
+            },
+            {
+                "label": "New and updated",
+                "value": "updated_at"
+            }
+        ],
+        "required": true
+    },
+    {
+        "name": "first_name",
+        "label": "First Name",
+        "type": "text"
+    },
+    {
+        "name": "last_name",
+        "label": "Last Name",
+        "type": "text"
+    },
+    {
+        "name": "donor_name",
+        "label": "Donor Full Name",
+        "type": "text",
+        "help": "This filter would be similar to using the First Name and Last Name paramters in conjunction"
+    },
+    {
+        "name": "email",
+        "label": "Email",
+        "type": "email"
+    },
+    {
+        "help": "The maximum number of results to be worked with during one execution cycle.",
+        "name": "limit",
+        "type": "uinteger",
+        "label": "Limit",
+        "default": 2,
+        "required": true
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "date_type",
+        "label": "Watch for new or updated campaigns",
+        "type": "select",
+        "options": [
+            {
+                "label": "New only",
+                "value": "created_at"
+            },
+            {
+                "label": "New and updated",
+                "value": "updated_at"
+            }
+        ]
+    },
+    {
+        "help": "The maximum number of results to be worked with during one execution cycle.",
+        "name": "limit",
+        "type": "uinteger",
+        "label": "Limit",
+        "default": 2,
+        "required": true
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "action",
+        "type": "text",
+        "label": "Action"
+    },
+    {
+        "name": "id",
+        "type": "number",
+        "label": "ID"
+    },
+    {
+        "name": "name",
+        "type": "text",
+        "label": "Name"
+    },
+    {
+        "name": "slug",
+        "type": "text",
+        "label": "Slug"
+    },
+    {
+        "name": "currency",
+        "type": "text",
+        "label": "Currency"
+    },
+    {
+        "name": "created_at",
+        "type": "date",
+        "label": "Created At"
+    },
+    {
+        "name": "updated_at",
+        "type": "date",
+        "label": "Updated At"
+    },
+    {
+        "name": "goal_amt",
+        "type": "text",
+        "label": "Goal Amt"
+    },
+    {
+        "name": "formatted_goal_amount",
+        "type": "text",
+        "label": "Formatted Goal Amount"
+    },
+    {
+        "name": "total_raised",
+        "type": "text",
+        "label": "Total Raised"
+    },
+    {
+        "name": "formatted_total_raised",
+        "type": "text",
+        "label": "Formatted Total Raised"
+    },
+    {
+        "name": "donations_count",
+        "type": "number",
+        "label": "Donations Count"
+    }
+]

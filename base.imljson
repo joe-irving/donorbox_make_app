@@ -1,0 +1,17 @@
+{
+    "baseUrl": "https://donorbox.org/api/v1",
+    "headers": {
+        "Authorization": "Basic {{ base64(connection.email + ':' + connection.key) }}"
+    },
+    "log": {
+        "sanitize": [
+            // "request.headers.Authorization"
+        ]
+    },
+    "response": {
+        "error": {
+            "type": "RuntimeError",
+            "message": "[{{ statusCode }}: {{ body.error_type }}] {{ body.msg }}"
+        }   
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "url": "/campaigns",
+    "method": "GET",
+    "response": {
+        "iterate": "{{body}}",
+        "trigger": {
+            "id": "{{item.id}}",
+            "date": "{{item[parameters.date_type]}}",
+            "type": "date",
+            "order": "desc"
+        },
+        "output": "{{item}}",
+        "limit": "{{parameters.limit}}"
+    },
+    "pagination": {
+        "qs": {
+            "page": "{{pagination.page}}"
+        }
+    }
+}
